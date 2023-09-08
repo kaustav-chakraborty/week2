@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TODO App</title>
+    <style>
+        /* Add some basic styling for the app */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        form {
+            margin-bottom: 20px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .todo-text {
+            flex-grow: 1;
+        }
+        
+        .delete-button {
+            background-color: #f44336;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TODO App</h1>
+
+    <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="Enter a new TODO" required />
+        <button type="submit">Add TODO</button>
+    </form>
+
+    <ul id="todo-list"></ul>
+
+    <script src="Easy-to-do.js"></script>
+</body>
+</html>
